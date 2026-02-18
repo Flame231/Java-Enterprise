@@ -9,7 +9,7 @@ public class Program {
 
         dump.fillWithStartDetails(20);
 
-        Thread factory = new Thread(new Factory(dump), "Фабрика");
+        Thread factory = new Thread(new Factory(dump), "Фабрика!!!!!!!");
         Thread servant1 = new Thread(new Servant(dump, s1), "Прислужник-1");
         Thread servant2 = new Thread(new Servant(dump, s2), "Прислужник-2");
         factory.start();
