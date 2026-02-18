@@ -9,5 +9,5 @@ public enum Detail {
     RIGHT_LEG,
     CPU,
     RAM,
-    HDD;
+    HDD
 }
